@@ -6,6 +6,7 @@ public class User {
     private String pswdHash;
     private String mail;
     private String activeCharacter;
+    private int karma;
 
     public String getUsername() {
         return username;
@@ -37,5 +38,13 @@ public class User {
 
     public void setActiveCharacter(String activeCharacter) {
         this.activeCharacter = activeCharacter;
+    }
+
+    public int getKarma() {
+        return karma;
+    }
+
+    public void setKarma(int karma) {
+        this.karma = karma;
     }
 }
